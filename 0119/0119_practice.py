@@ -76,3 +76,17 @@ def factorial(n):
         return n * factorial(n-1)
 
 print(factorial(4))
+
+
+# import pprint
+from pprint import pprint
+a = {'a' : ['apple', 'banana'], 'b': 'banana', 'c': 'car', 'd': 'drive', 'e': ['error', 'eat']}
+print(a)
+pprint(a)
+
+
+numbers = [1, 2, 3]
+result = map(str, numbers)
+print(result, type(result))
+
+print(list(result))
